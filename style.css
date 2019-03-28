@@ -22,6 +22,17 @@ li{
     border: solid 1px blue;
     
 }
+
+a:hover{
+    color: blue;
+}
+
+a {
+  transition-duration: 500ms; /* transition-durationはアニメーション時間の設定 */
+  color: inherit; /* ついでにリンクの色をデフォルト色に設定します */
+  text-decoration: none;
+}
+
 .content-item{
     margin: 0px;
     margin-top: 4px;
