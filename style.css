@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: darkcyan;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+ul{
+   display: flex;
+   flex-direction: column; 
+   color: black;    
+}
+
+li{
+    padding: 4px;
+    margin: 4px;
+    border: solid 1px blue;
+    
+}
+.content-item{
+    margin: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#curry{
+    background: yellow;
+}
+
+#niku{
+    background: red;
+}
+
+#men{
+    background: orange;
+}
